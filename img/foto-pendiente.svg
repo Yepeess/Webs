@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+  <!-- Hueco para una foto real del centro (con su permiso). Sustituye este archivo en el HTML por la foto. -->
+  <defs>
+    <pattern id="rayas" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <path d="M0 0v18" stroke="#e2d7c7" stroke-width="6"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="300" fill="#ece3d6"/>
+  <rect width="400" height="300" fill="url(#rayas)" opacity=".55"/>
+  <g transform="translate(200 142)" fill="none" stroke="#8c7f75" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-30" y="-20" width="60" height="42" rx="9"/>
+    <circle cy="1" r="11"/>
+    <path d="M-12-20l5-8h14l5 8"/>
+  </g>
+  <text x="200" y="196" text-anchor="middle" font-family="Figtree, system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="1.5" fill="#8c7f75">FOTO PENDIENTE</text>
+</svg>
